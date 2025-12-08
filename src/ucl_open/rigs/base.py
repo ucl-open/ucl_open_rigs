@@ -7,6 +7,5 @@ from swc.aeon.rigs.base import Device as AeonDevice
 class BaseSchema(AeonBaseSchema):
     """Base for all ucl-open schemas (rigs, experiments, devices, sessions.)."""
 
-
 class Device(AeonDevice):
     """The base class for creating ucl-open hardware device models."""
