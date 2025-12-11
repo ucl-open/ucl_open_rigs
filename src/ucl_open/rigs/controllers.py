@@ -1,7 +1,7 @@
 from typing import ClassVar, Literal, List
 from pydantic import Field
 from ucl_open.rigs.base import BaseSchema
-from ucl_open.rigs.types import UShort 
+from ucl_open.rigs.data_types import UShort 
 
 class CameraController(BaseSchema):
     """Represents a CameraController Module for a BehaviourBoard device.
